@@ -34,7 +34,7 @@ package com.leetcode.explore;
  */
 public class Prob0026 
 {
-	class Solution 
+	public class Solution 
 	{
 	    public int removeDuplicates(int[] nums) 
 	    {
