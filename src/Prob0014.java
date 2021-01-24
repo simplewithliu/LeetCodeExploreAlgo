@@ -37,7 +37,7 @@ public class Prob0014 {
 					}
 				}
 				pre = pre.substring(0, j);
-				if (pre.equalsIgnoreCase("")) {
+				if (pre.equals("")) {
 					return pre;
 				}
 			}
