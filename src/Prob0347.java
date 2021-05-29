@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
 
 /*
 
-前 K 个高频元素
+前K个高频元素
 
 给你一个整数数组 nums 和一个整数 k ，请你返回其中出现频率前 k 高的元素。
 
