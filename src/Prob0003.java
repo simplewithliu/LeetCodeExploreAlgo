@@ -32,23 +32,23 @@ s 由英文字母、数字、符号和空格组成
 */
 
 public class Prob0003 {
-	class Solution {
-		public int lengthOfLongestSubstring(String s) {
-			if (s == null || s.length() == 0) return 0;
-			int[] dict = new int[128];
-			int start = 0, end = 0, maxLen = 0, counter = 0;
-			while (end < s.length()) {
-				if (dict[s.charAt(end)] > 0) ++counter;
-				++dict[s.charAt(end)];
-				++end;
-				while (counter > 0) {
-					if (dict[s.charAt(start)] > 1) --counter;
-					--dict[s.charAt(start)];
-					++start;
-				}
-				maxLen = Math.max(maxLen, end - start);
-			}
-			return maxLen;
-		}
-	}
+    class Solution {
+        public int lengthOfLongestSubstring(String s) {
+            if (s == null || s.length() == 0) return 0;
+            int[] dict = new int[128];
+            int start = 0, end = 0, maxLen = 0, counter = 0;
+            while (end < s.length()) {
+                if (dict[s.charAt(end)] > 0) ++counter;
+                ++dict[s.charAt(end)];
+                ++end;
+                while (counter > 0) {
+                    if (dict[s.charAt(start)] > 1) --counter;
+                    --dict[s.charAt(start)];
+                    ++start;
+                }
+                maxLen = Math.max(maxLen, end - start);
+            }
+            return maxLen;
+        }
+    }
 }

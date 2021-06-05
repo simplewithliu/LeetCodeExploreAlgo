@@ -15,7 +15,7 @@ package com.leetcode.explore;
 输出：true
 解释：链表中有一个环，其尾部连接到第二个节点。
 
-示例 2：
+示例 2：
 输入：head = [1,2], pos = 0
 输出：true
 解释：链表中有一个环，其尾部连接到第一个节点。
@@ -24,7 +24,7 @@ package com.leetcode.explore;
 输入：head = [1], pos = -1
 输出：false
 解释：链表中没有环。
- 
+
 
 提示：
 链表中节点的数目范围是 [0, 104]

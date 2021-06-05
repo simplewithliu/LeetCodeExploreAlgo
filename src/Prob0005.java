@@ -20,7 +20,7 @@ package com.leetcode.explore;
 示例 4：
 输入：s = "ac"
 输出："a"
- 
+
 提示：
 1 <= s.length <= 1000
 s 仅由数字和英文字母（大写和/或小写）组成

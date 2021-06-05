@@ -32,11 +32,12 @@ public class Prob0278 {
 			return lo;
 		}
 	}
-}
 
-// mock class
-class VersionControl {
-	public boolean isBadVersion(int version) {
-		return true;
+	// mock class
+	class VersionControl {
+		public boolean isBadVersion(int version) {
+			return true;
+		}
 	}
 }
+
